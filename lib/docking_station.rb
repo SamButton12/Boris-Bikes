@@ -1,13 +1,7 @@
+require_relative 'bike'
 class DockingStation
 
-  
-  # def initialize(bike)
-  #   @bike = bike
-
   def release_bike
-    
+    Bike.new
   end
 end
-
-
-
